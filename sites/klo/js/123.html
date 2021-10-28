@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
+<body>
+  <style>
+    .carousel {
+      color: #170724;
+      --carousel-button-bg: #fff;
+      --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+      --carousel-button-svg-width: 20px;
+      --carousel-button-svg-height: 20px;
+      --carousel-button-svg-stroke-width: 2.5;
+    }
+    
+    .carousel__slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 160px;
+      margin-right: 6px;
+      background-color: #eee;
+      border-radius: 6px;
+    }
+  </style>
+  <div class="carousel">
+    <div class="carousel__slide">your content 1</div>
+    <div class="carousel__slide">your content 2</div>
+    <div class="carousel__slide">your content 3</div>
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      $('.carousel').slick()
+    });
+  </script>
+
+</body>
+
+</html>
