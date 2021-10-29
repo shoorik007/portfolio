@@ -27,7 +27,7 @@ body {
 }
 
 .label {
- font-style: 18px;
+ font-size: 18px;
  line-height: 21.6px;
  padding: 12px 22px 9px 22px;
  background-color: #FF6969;
@@ -44,11 +44,6 @@ body {
 
 .header__content {
  padding-top: 52px;
- //min-width: 744px;
-}
-
-.header__slogan {
- //min-width: 544px;
 }
 
 .header__menu {}
@@ -64,10 +59,8 @@ body {
  font-size: 18px;
  line-height: 22px;
  text-transform: uppercase;
- letter-spacing: 5%;
  padding-right: 10px;
  list-style-type: none;
- //transform: scaleX(0.6);
  display: block;
 }
 
