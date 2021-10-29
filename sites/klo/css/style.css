@@ -242,7 +242,8 @@ body {
 }
 
 .main__case-slider {
- margin-bottom: 108px;
+ /* margin-bottom: 108px; */
+ margin-bottom: 236px;
 }
 
 .main__case--title {
@@ -361,6 +362,13 @@ body {
  background-repeat: no-repeat;
  background-position: center;
  color: #fff;
+ margin-top: -50px;
+ cursor: pointer;
+}
+
+.main__cases .slick-disabled {
+ background-color: #e7c2c2;
+ cursor: auto;
 }
 
 .main__cases .slick-prev {
@@ -371,6 +379,31 @@ body {
 .main__cases .slick-next {
  background-image: url(/images/next.png);
  right: 30%;
+}
+
+.main__cases .slick-dots {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 78px;
+}
+
+.main__cases li {
+ padding: 0 10px;
+ list-style: none;
+}
+
+.main__cases button {
+ font-size: 0;
+ border: 1px solid #EB5757;
+ width: 20px;
+ height: 20px;
+ background-color: #fff;
+ cursor: pointer;
+}
+
+.main__cases .slick-active button {
+ background-color: #EB5757;
 }
 
 
