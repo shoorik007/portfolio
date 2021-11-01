@@ -6,8 +6,8 @@ $(function() {
   centerMode: true,
   centerPadding: '250px',
   variableWidth: true,
-  infinite: false
-   // autoplay: true
+  infinite: false,
+  autoplay: true,
 
  })
 
@@ -18,8 +18,8 @@ $(function() {
   // centerMode: true,
   // centerPadding: '250px',
   // variableWidth: true,
-  infinite: false
-   //autoplay: true
+  infinite: false,
+  //autoplay: true,
 
  })
 
