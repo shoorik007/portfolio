@@ -1,0 +1,151 @@
+body {
+ color: #fff;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+}
+
+.container {
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+
+.header {
+ background-image: url(../images/header-bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: bottom center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.header__top {
+ padding: 38px 80px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 16px;
+ line-height: 150%;
+}
+
+.menu__inner {
+ display: flex;
+ justify-content: space-between;
+ /* max-width: 745px; */
+}
+
+.menu__link {
+ margin: 0 28px;
+ cursor: pointer;
+}
+
+.login {
+ color: #fff;
+ width: 183px;
+ height: 44px;
+ text-align: center;
+ background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+ border-radius: 50px;
+ border: none;
+ cursor: pointer;
+}
+
+.header__content--title {
+ font-size: 64px;
+ line-height: 140%;
+ margin-bottom: 50px;
+ font-weight: 700;
+}
+
+.time {
+ display: flex;
+ font-size: 40px;
+ line-height: 140%;
+ font-weight: 700;
+}
+
+.time__day,
+.time__hour,
+.time__min,
+.time__sec {
+ width: 102px;
+ height: 112px;
+ background-color: #121212;
+ margin-right: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ text-align: center;
+ padding: 20px;
+}
+
+.time span {
+ font-size: 16px;
+ line-height: 140%;
+ font-weight: normal;
+ opacity: .4;
+}
+
+.header__bottom {
+ background: #121212;
+ font-size: 16px;
+ line-height: 150%;
+ /* height: 130px; */
+ padding: 35px 0;
+}
+
+.header__bottom--inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.order {
+ background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+ border-radius: 50px;
+ border: none;
+ color: #fff;
+ width: 169px;
+ height: 44px;
+}
+
+.header__bottom--total,
+.header__bottom--success {
+ display: flex;
+}
+
+.header__bottom--total span {
+ margin-bottom: 10px;
+}
+
+.header__bottom span {
+ opacity: .4;
+ font-weight: 700;
+ min-width: 223px;
+ margin-bottom: 8px;
+}
+
+.header__bottom--money {
+ display: flex;
+}
+
+.header__bottom--line {
+ width: 714px;
+ background: #fff;
+ margin-bottom: 5px;
+}
+
+.header__bottom--line-indicator {
+ height: 6px;
+ width: 440px;
+ background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.header__bottom--money-target {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ opacity: .4;
+}
