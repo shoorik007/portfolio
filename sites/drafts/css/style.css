@@ -3,7 +3,7 @@ body {
  font-family: 'Roboto', sans-serif;
  font-weight: 400;
  font-style: normal;
- background-image: url(../images/bg.jpg);
+ background-image: url(../images/bg-min.jpg);
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 /* --- header start ---  */
 
 .header {
- background-image: url(../images/header-bg.jpg);
+ background-image: url(../images/header-bg-min.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  background-position: bottom center;
@@ -203,7 +203,7 @@ body {
  width: 91px;
  height: 91px;
  display: inline-block;
- background-image: url(../images/mark.png);
+ background-image: url(../images/mark-min.png);
  transform: rotate(225deg);
  position: absolute;
  left: -110px;
@@ -322,7 +322,7 @@ body {
  width: 91px;
  height: 91px;
  display: inline-block;
- background-image: url(../images/mark.png);
+ background-image: url(../images/mark-min.png);
  transform: rotate(45deg);
  position: absolute;
  left: -110px;
