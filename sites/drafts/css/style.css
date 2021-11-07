@@ -358,19 +358,214 @@ body {
 }
 
 
-/* --- partners start ---  */
+/* --- program start ---  */
 
 
-/* --- partners end ---  */
+/* --- program end ---  */
+
+.program {
+ margin-bottom: 200px;
+ text-align: center;
+}
+
+.program__title {
+ margin-bottom: 30px;
+}
+
+.program__descr {
+ font-size: 16px;
+ line-height: 160%;
+ opacity: 0.5;
+ margin-bottom: 80px;
+}
+
+.program__inner {
+ position: relative;
+}
 
 
-/* --- about start ---  */
+/* .program__line111 {
+ width: 6px;
+ height: 6px;
+ background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+ margin: 0 auto;
+} */
+
+.program__line {
+ width: 6px;
+ height: 677px;
+ background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+ position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ right: 0;
+}
+
+.program__item {
+ width: 230px;
+ margin: 0 auto;
+ right: 174px;
+}
+
+.program__num {
+ font-size: 14px;
+ line-height: 160%;
+ opacity: 0.5;
+ margin-bottom: 15px;
+}
+
+.program__desc {
+ font-size: 18px;
+ line-height: 160%;
+}
+
+.program__item:nth-child() {}
 
 
-/* --- about end ---  */
+/* --- teachers start ---  */
+
+.teachers {
+ margin-bottom: 200px;
+}
+
+.teachers__title {
+ margin-left: 128px;
+ margin-bottom: 113px;
+ position: relative;
+}
+
+.teachers__title::before {
+ content: "";
+ width: 91px;
+ height: 91px;
+ display: inline-block;
+ background-image: url(../images/mark-min.png);
+ transform: rotate(180deg);
+ position: absolute;
+ left: -110px;
+ top: -10px;
+}
+
+.teachers__inner {
+ display: flex;
+ justify-content: space-around;
+ text-align: center;
+}
+
+.teachers__foto {
+ margin-bottom: 40px;
+}
+
+.teacher__name {
+ font-size: 24px;
+ line-height: 140%;
+ margin-bottom: 15px;
+}
+
+.teacher__desc {
+ font-size: 16px;
+ line-height: 160%;
+ margin-bottom: 30px;
+}
+
+.teacher__bio {
+ padding: 10px 30px;
+ border-radius: 22px;
+ background-color: transparent;
+ color: #fff;
+ border: 1px solid #fff;
+ cursor: pointer;
+}
 
 
-/* --- about start ---  */
+/* --- teachers end ---  */
 
 
-/* --- about end ---  */
+/* --- footer start ---  */
+
+.footer {
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+.footer__title {
+ margin-bottom: 30px;
+}
+
+.footer__desc {
+ opacity: 0.5;
+ font-size: 16px;
+ line-height: 160%;
+ margin-bottom: 60px;
+}
+
+.footer__email {
+ width: 492px;
+ font-size: 16px;
+ line-height: 150%;
+ margin: 0 auto;
+ position: relative;
+}
+
+.footer__email input {
+ width: 492px;
+ padding: 10px 30px;
+ background-color: rgba(255, 255, 255, .25);
+ border-radius: 22px;
+ border: none;
+ color: #fff;
+}
+
+.footer__email input::placeholder {
+ color: #fff;
+ opacity: 0.8;
+}
+
+.footer__email input:focus-visible {
+ outline: none;
+}
+
+.footer__email button {
+ font-weight: 700;
+ padding: 10px 30px;
+ border-radius: 22px;
+ position: absolute;
+ top: 0;
+ right: -60px;
+ border: none;
+ background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+ border-radius: 50px;
+ color: #fff;
+ cursor: pointer;
+}
+
+.footer__soc-icons {
+ margin-top: 40px;
+ margin-bottom: 50px;
+}
+
+.footer__item {
+ margin: 0 15px;
+ border-radius: 50%;
+ background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+ padding: 13px;
+}
+
+.footer__figma {
+ font-size: 16px;
+ line-height: 160%;
+ opacity: 0.8;
+}
+
+
+/* ------- */
+
+.footer__soc-icons {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+/* --- footer end ---  */
