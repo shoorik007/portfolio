@@ -370,6 +370,22 @@ body {
 
 .program__title {
  margin-bottom: 30px;
+ position: relative;
+}
+
+.program__title::before {
+ content: "";
+ width: 91px;
+ height: 91px;
+ display: inline-block;
+ background-image: url(../images/mark-min.png);
+ /* transform: rotate(180deg); */
+ position: absolute;
+ top: -150px;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ right: 0;
 }
 
 .program__descr {
@@ -381,15 +397,10 @@ body {
 
 .program__inner {
  position: relative;
+ max-width: 600px;
+ margin-left: auto;
+ margin-right: auto;
 }
-
-
-/* .program__line111 {
- width: 6px;
- height: 6px;
- background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
- margin: 0 auto;
-} */
 
 .program__line {
  width: 6px;
@@ -400,11 +411,11 @@ body {
  margin-right: auto;
  left: 0;
  right: 0;
+ /* background-image: url(../images/line.png); */
 }
 
 .program__item {
  width: 230px;
- margin: 0 auto;
  right: 174px;
 }
 
@@ -418,9 +429,29 @@ body {
 .program__desc {
  font-size: 18px;
  line-height: 160%;
+ position: relative;
 }
 
-.program__item:nth-child() {}
+.program__item:nth-child(odd) {
+ text-align: left;
+ margin-left: auto;
+}
+
+.program__item:nth-child(even) {
+ text-align: right;
+}
+
+
+/* .program__item:nth-child(odd)::after {
+ content: "";
+ width: 40px;
+ height: 0px;
+ display: inline-block;
+ opacity: 0.3;
+ border: 1px solid #FFFFFF;
+ transform: rotate(180deg);
+ position: absolute;
+} */
 
 
 /* --- teachers start ---  */
